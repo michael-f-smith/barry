@@ -40,6 +40,10 @@ sudo pip3 install vcstools
 ```
 sudo apt install git
 ```
+# Install colcon:
+```
+python3 -m pip install colcon-common-extensions
+```
 
 # Install ros deps:
 ```
