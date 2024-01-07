@@ -21,6 +21,9 @@ https://thepihut.com/blogs/raspberry-pi-tutorials/16021420-how-to-install-use-th
 # Use libcamera
 # To capture a single picture:
 libcamera-jpeg -o image.jpg
+
+# vcgencmd
+vcgencmd get_camera
 ```
 
 # Install pip
