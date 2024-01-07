@@ -28,6 +28,16 @@ libcamera-jpeg -o image.jpg
 sudo apt install python3-pip
 ```
 
+# Install vcstools
+```
+sudo pip3 install vcstools
+```
+
+# Install git 
+```
+sudo apt install git
+```
+
 # ROS2 Humble Install
 https://docs.ros.org/en/humble/Installation/Alternatives/Ubuntu-Development-Setup.html
 ```
