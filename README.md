@@ -67,6 +67,9 @@ sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o
 sudo apt update && sudo apt install -y \
   python3-flake8-docstrings \
   python3-pip \
-  python3-pytest-cov \
-  ros-dev-tools
+  python3-pytest-cov
+
+
+
+ rosdep install --from-paths src --ignore-src -y --skip-keys "fastcdr rti-connext-dds-6.0.1 urdfdom_headers" --rosdistro humble --os=ubuntu:jammy
 ```
