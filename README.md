@@ -13,3 +13,10 @@ static ip_address=STATIC_IP/24
 static routers=ROUTER_IP 
 static domain_name_servers=DNS_IP
 ```
+
+
+# Cameras
+https://thepihut.com/blogs/raspberry-pi-tutorials/16021420-how-to-install-use-the-raspberry-pi-camera
+```
+# Use libcamera
+```
