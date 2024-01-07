@@ -19,4 +19,6 @@ static domain_name_servers=DNS_IP
 https://thepihut.com/blogs/raspberry-pi-tutorials/16021420-how-to-install-use-the-raspberry-pi-camera
 ```
 # Use libcamera
+# To capture a single picture:
+libcamera-jpeg -o image.jpg
 ```
