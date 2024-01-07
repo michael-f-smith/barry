@@ -76,4 +76,7 @@ sudo apt update && sudo apt install -y \
 
 
  rosdep install --from-paths src --ignore-src -y --skip-keys "fastcdr rti-connext-dds-6.0.1 urdfdom_headers" --rosdistro humble --os=ubuntu:jammy
+
+# Maybe toss a fix-broken in there somewhere
+sudo apt --fix-broken install
 ```
