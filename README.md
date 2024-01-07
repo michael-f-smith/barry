@@ -38,6 +38,11 @@ sudo pip3 install vcstools
 sudo apt install git
 ```
 
+# Install ros deps:
+```
+sudo apt-get install python3-rosdep python3-rosinstall-generator build-essential
+```
+
 # ROS2 Humble Install
 https://docs.ros.org/en/humble/Installation/Alternatives/Ubuntu-Development-Setup.html
 ```
