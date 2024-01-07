@@ -23,6 +23,10 @@ https://thepihut.com/blogs/raspberry-pi-tutorials/16021420-how-to-install-use-th
 libcamera-jpeg -o image.jpg
 ```
 
+# Install pip
+```
+sudo apt install python3-pip
+```
 
 # ROS2 Humble Install
 https://docs.ros.org/en/humble/Installation/Alternatives/Ubuntu-Development-Setup.html
