@@ -50,6 +50,11 @@ python3 -m pip install colcon-common-extensions
 sudo apt-get install python3-rosdep python3-rosinstall-generator build-essential
 ```
 
+# Install libignition
+```
+sudo apt-get install libignition-math6-dev
+```
+
 # ROS2 Humble Install
 https://docs.ros.org/en/humble/Installation/Alternatives/Ubuntu-Development-Setup.html
 ```
