@@ -72,6 +72,8 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-a
 
 # After running the above may need to hand-edit /etc/apt/sources.list.d/ros2.list
 # and add bullseye after ubuntu and before main
+# Because I was running rosdep install incorrectly before may need to run this:
+sudo dpkg -i --force-overwrite <filename>
 
 sudo apt update && sudo apt install -y \
   python3-flake8-docstrings \
