@@ -52,7 +52,7 @@ sudo apt-get install python3-rosdep python3-rosinstall-generator build-essential
 
 # Install libignition
 ```
-sudo apt-get install libignition-math6-dev
+sudo apt-get install libignition-math6-dev # May not need this if not using gazebo
 ```
 
 # ROS2 Humble Install
@@ -88,9 +88,11 @@ sudo apt update && sudo apt install -y \
   python3-pytest-cov
 
 
-
+# Added gazebo and rviz to keys to skip. Also added -r and -s 
  rosdep install --from-paths src --ignore-src -y --skip-keys "fastcdr rti-connext-dds-6.0.1 urdfdom_headers gazebo rviz" --rosdistro humble --os=ubuntu:jammy -r -s
 
 # Maybe toss a fix-broken in there somewhere
 sudo apt --fix-broken install
+
+colcon build --symlink-install --continue-on-error --executor sequential
 ```
