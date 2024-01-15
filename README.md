@@ -96,3 +96,7 @@ sudo apt --fix-broken install
 
 colcon build --symlink-install --continue-on-error --executor sequential
 ```
+
+# Cross-Compiling for Raspberry Pi
+https://earthly.dev/blog/cross-compiling-raspberry-pi/
+
