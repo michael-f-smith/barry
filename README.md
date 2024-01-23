@@ -35,7 +35,7 @@ sudo apt install python3-pip
 ```
 sudo pip3 install vcstools
 # May actually want the following:
-sudo apt install python3-vcstools
+sudo apt install python3-vcstools python3-vcstool
 ```
 
 # Install git 
@@ -86,6 +86,10 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-a
 sudo dpkg -i --force-overwrite <filename>
 # and then the following to fix any broken packages
 sudo apt-get install -f
+
+mkdir -p ~/ros2_humble/src
+cd ~/ros2_humble
+vcs import --input https://raw.githubusercontent.com/ros2/ros2/humble/ros2.repos src
 
 sudo apt update && sudo apt install -y \
   python3-flake8-docstrings \
