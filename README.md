@@ -34,6 +34,8 @@ sudo apt install python3-pip
 # Install vcstools
 ```
 sudo pip3 install vcstools
+# May actually want the following:
+sudo apt install python3-vcstools
 ```
 
 # Install git 
