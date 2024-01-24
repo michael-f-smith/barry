@@ -114,6 +114,7 @@ colcon build --symlink-install --continue-on-error --executor sequential
 # After building on pi
 https://colcon.readthedocs.io/en/released/reference/verb/build.html
 ```
+# Maybe not ... may be easier to just mirror the workspace path
 colcon build --symlink-install --cmake-clean-cache
 ```
 
@@ -123,6 +124,7 @@ https://earthly.dev/blog/cross-compiling-raspberry-pi/
 # Transferring files
 https://help.ubuntu.com/community/SSH/TransferFiles
 ```
+# Using scp
 scp <file> <username>@<IP address or hostname>:<Destination>
 ```
 
