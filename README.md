@@ -2,7 +2,7 @@
 
 # Raspbian Roomba
 
-# Setting Static IP
+# Setting Static IP (no longer works on Raspbian Bookworm <-- they recommend setting static ip from router)
 https://www.makeuseof.com/raspberry-pi-set-static-ip/
 ```
 sudo nano /etc/dhcpcd.conf
@@ -81,7 +81,7 @@ sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o
 echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu $(. /etc/os-release && echo $UBUNTU_CODENAME) main" | sudo tee /etc/apt/sources.list.d/ros2.list > /dev/null
 
 # After running the above may need to hand-edit /etc/apt/sources.list.d/ros2.list
-# and add bullseye after ubuntu and before main
+# and add bullseye (or whatever debian os version) after "ubuntu" and before "main"
 # Because I was running rosdep install incorrectly before may need to run this:
 sudo dpkg -i --force-overwrite <filename>
 # and then the following to fix any broken packages
