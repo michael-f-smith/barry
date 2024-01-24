@@ -111,6 +111,12 @@ sudo apt --fix-broken install
 colcon build --symlink-install --continue-on-error --executor sequential
 ```
 
+# After building on pi
+https://colcon.readthedocs.io/en/released/reference/verb/build.html
+```
+colcon build --symlink-install --cmake-clean-cache
+```
+
 # Cross-Compiling for Raspberry Pi
 https://earthly.dev/blog/cross-compiling-raspberry-pi/
 
