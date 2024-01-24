@@ -116,4 +116,7 @@ https://earthly.dev/blog/cross-compiling-raspberry-pi/
 
 # Transferring files
 https://help.ubuntu.com/community/SSH/TransferFiles
+```
+scp <file> <username>@<IP address or hostname>:<Destination>
+```
 
