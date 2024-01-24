@@ -1,6 +1,6 @@
 # barry
 
-# Raspian Roomba
+# Raspbian Roomba
 
 # Setting Static IP
 https://www.makeuseof.com/raspberry-pi-set-static-ip/
