@@ -128,3 +128,8 @@ https://help.ubuntu.com/community/SSH/TransferFiles
 scp <file> <username>@<IP address or hostname>:<Destination>
 ```
 
+# Raspberry Pi 5 runs Python3.11 by default in bookworm
+```
+# https://stackoverflow.com/questions/76942052/raspberry-pi-cant-install-python-3-11
+# May need to add python3.11
+```
