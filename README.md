@@ -126,6 +126,9 @@ https://help.ubuntu.com/community/SSH/TransferFiles
 ```
 # Using scp
 scp <file> <username>@<IP address or hostname>:<Destination>
+
+# On windows with putty installed and in directory to install file on windows (in cmd)
+pscp -scp <source hostname>@<source ip>:/home/<user-directory>/<file> <file>
 ```
 
 # Raspberry Pi 5 runs Python3.11 by default in bookworm
